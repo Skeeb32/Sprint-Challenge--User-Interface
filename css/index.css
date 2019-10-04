@@ -92,6 +92,8 @@ header{
   }
   .logo img{
     max-width:100%;
+    display: flex;
+    justify-content: center;
     
   }
   .links{
@@ -290,4 +292,43 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About Middle Section */
+
+.All {
+	display:flex;
+	border-bottom:1.5px dotted black;
+	padding:2%;
+	width:45%;
+	margin-top:5%;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background-color: white;
+	text-align: left;
+}
+
+.one {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	align-items: flex-start;
+	height:700px
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    margin-left:55%;
+    margin-top: -87.5%;
+	width:100%;
+	position: relative;
+	bottom: 2px;
+}
+
+button {
+	padding-right:40px;
+	background-color: white;
+    text-align:left;
+    padding-right: -32%;
 }
